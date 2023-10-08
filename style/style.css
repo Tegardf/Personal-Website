@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/Font/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 14px;
+    }
+}
+@keyframes pop-nav {
+    0% {
+        top: 0;
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+:root{
+    --color1:#F1EFEF;
+    --color2:#CCC8AA;
+    --color3:#7D7C7C;
+    --color4:#191717;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar-container{
+    /* position: fixed; */
+    display: flex;
+    /* width: 88vw; */
+    padding: 0px 0px 0px 11vw;
+    justify-content: space-between;
+    background-color: var(--color2);
+    /* transform: translateY(-100px)  */
+}
+.inner-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.inner-container >a{
+    padding: 10% 20%;
+    text-decoration: none;
+    font: 700 1.5rem 'Inter',sans-serif;
+    color: var(--color4);
+    border-radius: 0px 0px 15px 15px;
+    border-style: solid;
+    border-width: 0px 2px 8px 2px;
+    border-color: var(--color2);
+}
+.inner-container a:hover{
+    background-color: var(--color2);
+    position: relative;
+    animation: pop-nav 0.2s ease-in-out both;
+    color: var(--color3);
+    border-color: var(--color4);
+}
