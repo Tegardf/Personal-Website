@@ -6,15 +6,6 @@
       transform: rotate(-30deg) scale(1.2);
     }
 }
-@keyframes card-animate {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.1);
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    }
-}
 @keyframes cardlearn-animate {
     0%{
         width: 0;
@@ -91,7 +82,7 @@
     color: var(--color3);
 }
 .blog-card{
-    width: 35vw;
+    width: 30vw;
     text-decoration: none;
     border-radius: 1rem;
     background-color: var(--color1);

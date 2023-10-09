@@ -46,6 +46,9 @@
     width: 2.5rem;
     height: auto;
 }
+.about-me .tech-stack .logo svg:hover{
+    
+}
 .about-me .picture img{
     width: 35vw;
     border-radius: 1rem;
