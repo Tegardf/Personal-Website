@@ -80,12 +80,16 @@
 .content-card h2{
     font: 700 1.5rem 'Inter', sans-serif;
     color: var(--color4);
-    margin-bottom: 3%;
     margin: 0;
+    margin-bottom: 3%;
 }
 .content-card p{
     font: 500 1.1rem 'Inter',sans-serif;
     color: var(--color3);
+}
+.projectcard .tech-stack{
+    display: flex;
+    gap: 3%;
 }
 .projectcard .tech-stack > *{
     height: auto;
